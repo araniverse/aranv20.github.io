@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <title>Portfolio</title>
+    <!-- CSS LINK  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- BOX ICONS CDN LINK -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Animate On Scroll Library CSS Link  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="container">
+        <div class="nav">
+          <!-- logo -->
+          <a class="logo" href="/">
+            <img src="images/logo.png" alt="logo-img" class="logo-img" />
+          </a>
+          <!-- links  -->
+          <ul class="links">
+            <li>
+              <a href="#" class="nav-link">home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">about</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">services</a>
+            </li>
+            <li>
+              <a href="#education" class="nav-link">education</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link">projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">contact</a>
+            </li>
+          </ul>
+          <!-- toggles  -->
+          <div class="toggles">
+            <!-- toggle nav links -->
+            <button class="toggle-links">
+              <i class="bx bx-menu"></i>
+            </button>
+            <!-- toggle contact -->
+            <button class="toggle-contact-right-bar">
+              <i class="bx bx-menu"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT RIGHT BAR  -->
+    <div class="contact-right-bar">
+      <div class="contact-header">
+        <!-- small logo -->
+        <a class="small-logo" href="/">
+          <img
+            src="images/logo.png"
+            alt="small-logo-img"
+            class="small-logo-img"
+          />
+        </a>
+        <button class="circle-btn close-contact">
+          <i class="bx bx-x"></i>
+        </button>
+      </div>
+      <div class="contact-body">
+        <div class="top">
+          <h4 class="contact-title">about us</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+            molestias unde odio tempore consequuntur vero ex labore
+            necessitatibus blanditiis pariatur.
+          </p>
+        </div>
+        <div class="bottom">
+          <h4 class="contact-title">GET IN TOUCH</h4>
+          <!-- contact right bar form  -->
+          <form>
+            <div class="input-group">
+              <input
+                type="text"
+                required
+                placeholder="Your Name"
+                class="input-contact"
+              />
+            </div>
+            <div class="input-group">
+              <input
+                type="email"
+                required
+                placeholder="Your Email"
+                class="input-contact"
+              />
+            </div>
+            <div class="input-group">
+              <textarea
+                required
+                placeholder="Message"
+                class="message-contact"
+              ></textarea>
+            </div>
+            <div class="input-group">
+              <button type="submit" class="btn">Submit Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- BANNER  -->
+    <section id="banner" class="banner">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="text-col">
+            <h1 class="banner-heading">
+              HI, I'M AMELIA RAHAYU! BACKEND
+              <span>DEVELOPER</span>
+            </h1>
+            <h2>
+              Nice to meet you!
+            </h2>
+            <div class="btn-container">
+              <button class="btn download-btn flex items-center">
+                Download CV <i class="bx bxs-download"></i>
+              </button>
+            </div>
+          </div>
+          <!-- right column  -->
+          <div class="img-col">
+            <div class="img">
+              <img src="./images/banner_img_1.png" class="banner-img" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <!-- left column  -->
+          <div class="col-2">
+            <!-- title and subtitle  -->
+            <h3 class="section-title">ABOUT ME</h3>
+            <h5 class="section-subtitle-left" data-aos="fade-up">
+              Transforming visions into exceptional portfolios
+            </h5>
+            <div class="my-20">
+              <div class="flex gap-20">
+                <div class="line my-10"></div>
+                <div>
+                  <p style="text-align: justify;">
+                      I am a sixth-semester student pursuing a Diploma 3 (D3) degree at Lampung State Polytechnic,
+                       majoring in Informatics Management. Throughout my studies, I have developed several applications, 
+                       including web-based and mobile projects. I am also actively involved in the campus organization, 
+                       especially in the field of communication and information within the Department Student Association. 
+                       My interest in technological innovation is my main motivation to continue learning and self-development.
+                       Currently, I am focusing on becoming a BACKEND DEVELOPER.
+                  </p>
+                  <div class="my-40">
+                    <button class="btn download-btn flex items-center gap-10">
+                      Download CV <i class="bx bxs-download"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- right column  -->
+          <div class="col-2 text-right-lg-left" data-aos="fade-left">
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="container">
+        <!-- title and subtitle  -->
+        <h3 class="section-title text-center">my services</h3>
+        <h5 class="section-subtitle-center" data-aos="fade-up">
+          Crafting stories through coding and innovation
+        </h5>
+        <!-- services list -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-3" data-aos="fade-right">
+            <div class="service-icon"><i class="bx bx-code-alt"></i></div>
+            <div class="card">
+              <h4 class="card-title">WEBSITE-DEV</h4>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-3" data-aos="fade-up">
+            <div class="service-icon"><i class="bx bxl-android"></i></div>
+            <div class="card">
+              <h4 class="card-title">MOBILE-DEV</h4>
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-3" data-aos="fade-left">
+            <div class="service-icon"><i class="bx bxl-codepen"></i></div>
+            <div class="card">
+              <h4 class="card-title">APPS DEVELOPMENT</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EDUCATION AND SKILLS -->
+    <section class="education-skill" id="education">
+      <div class="container">
+        <!-- title and subtitle  -->
+        <h3 class="section-title text-center">education & tech</h3>
+        <h5 class="section-subtitle-center" data-aos="fade-up">
+          My Education History
+        </h5>
+        <!-- education list -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="education">
+              <button class="btn-outline">2018 - 2021</button>
+              <h2>SENIOR HIGH SCHOOL 1 SEPUTIH MATARAM</h2>
+              <p>
+                Department of Social Studies
+              </p>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="education">
+              <button class="btn-outline">2021 - Present</button>
+              <h2>LAMPUNG STATE POLYTECHNIC</h2>
+              <p>
+                Management Informatics
+              </p>
+            </div>
+          </div>
+        </div>
+        <h5 class="section-subtitle-center" data-aos="fade-up">
+          My Tech Stack
+        </h5>
+        <!-- skills list -->
+        <div class="row mt-20">
+          <!-- column 1 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">HTML</h6>
+              <div class="skill-progress w-85"></div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">PHP</h6>
+              <div class="skill-progress w-85"></div>
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">CSS</h6>
+              <div class="skill-progress w-85"></div>
+            </div>
+          </div>
+          <!-- column 4 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">Java</h6>
+              <div class="skill-progress w-85"></div>
+            </div>
+          </div>
+          <!-- column 5 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">Javascript</h6>
+              <div class="skill-progress w-85"></div>
+            </div>
+          </div>
+          <!-- column 6 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">CodeIgnigter</h6>
+              <div class="skill-progress w-85"></div>
+            </div>
+          </div>
+          <!-- column 7 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">Bootstrap</h6>
+              <div class="skill-progress w-75"></div>
+            </div>
+          </div>
+          <!-- column 8 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">JQuery</h6>
+              <div class="skill-progress w-85"></div>
+            </div>
+          </div>
+          <!-- column 9 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">MySQL</h6>
+              <div class="skill-progress w-85"></div>
+            </div>
+          </div>
+          <!-- column 10 -->
+          <div class="col-2" data-aos="fade-up">
+            <div class="skill">
+              <h6 class="skill-text">Firebase</h6>
+              <div class="skill-progress w-75"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <!-- title and subtitle  -->
+        <h3 class="section-title">MY RECENT PORTFOLIO</h3>
+        <!-- projects list -->
+        <div class="flex justify-between flex-wrap my-50 gap-20">
+          <!-- column 1 -->
+          <div class="col-4xl" data-aos="fade-right">
+            <div class="project">
+              <img
+                src="./images/project-1.jpg"
+                class="project-img"
+                alt="project-img"
+              />
+              <div class="overlay">
+                <div>
+                  <h2>APLIKASI LAYANAN EVENT BANDAR LAMPUNG-CI4</h2>
+                  <div class="flex items-center gap-20">
+                    <div class="line-green"></div>
+                    <p>Web Framework</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-1sm" data-aos="fade-left">
+            <div class="project">
+              <img
+                src="./images/project-2.jpg"
+                class="project-img"
+                alt="project-img"
+              />
+              <div class="overlay">
+                <div>
+                  <h2>DigiPark Polinela</h2>
+                  <div class="flex items-center gap-20">
+                    <div class="line-green"></div>
+                    <p>Android App</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT  -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="flex flex-wrap justify-between">
+          <!-- column 1 -->
+          <div class="col-2">
+            <!-- title and subtitle  -->
+            <h3 class="section-title">contact me</h3>
+            <h5 class="section-subtitle-left" data-aos="fade-up">
+              Coding and Innovation
+            </h5>
+            <div class="my-40">
+              <p>
+                Thanks For Attention! I'm glad that you want to contact me.
+              </p>
+            </div>
+            <div class="row">
+              <!-- column 1  -->
+              <div class="col-2" data-aos="fade-right">
+              </div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-2" data-aos="fade-left">
+            <div class="contact-form">
+                <h2>GET IN TOUCH</h2>
+                <form action="mailto:ameliaarahayu138@gmail.com" method="post" enctype="text/plain">
+                    <div class="input-group">
+                        <input type="text" required placeholder="Your Name" name="name" />
+                    </div>
+                    <div class="input-group">
+                        <input type="email" required placeholder="Your Email" name="email" />
+                    </div>
+                    <div class="input-group">
+                        <input type="number" required placeholder="Your Phone" name="phone" />
+                    </div>
+                    <div class="input-group">
+                        <textarea required placeholder="Message" name="message"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <button type="submit" class="btn">Submit Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>        
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <div class="container">
+        <!-- footer top  -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-3" data-aos="fade-right">
+            <div class="flex gap-20">
+              <!-- icon  -->
+              <div class="footer-icon">
+                <i class="bx bx-location-plus"></i>
+              </div>
+              <!-- text  -->
+              <div>
+                <h4 class="footer-title">Address</h4>
+                <p class="my-20">
+                  Rajabasa, Bandar Lampung
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-3" data-aos="fade-up">
+            <div class="flex gap-20">
+              <!-- icon -->
+              <div class="footer-icon">
+                <i class="bx bx-phone-call"></i>
+              </div>
+              <!-- text  -->
+              <div>
+                <h4 class="footer-title">Lets talk us</h4>
+                <div class="my-20">
+                  <p class="primary-hover">+62 858 0946 4054</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-3" data-aos="fade-left">
+            <div class="flex gap-20">
+              <!-- icon  -->
+              <div class="footer-icon">
+                <i class="bx bx-envelope"></i>
+              </div>
+              <!-- text  -->
+              <div>
+                <h4 class="footer-title">Send us email</h4>
+                <div class="my-20">
+                  <p class="primary-hover">ameliaarahayu138@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 4 -->
+          <div class="col-3" data-aos="fade-left">
+            <div class="flex gap-20">
+                <!-- icon  -->
+                <div class="footer-icon">
+                    <i class="bx bxl-instagram"></i>
+                </div>
+                <!-- text  -->
+                <div>
+                    <h4 class="footer-title">Instagram</h4>
+                    <div class="my-20">
+                        <a class="primary-hover" a href = "https://www.instagram.com/aranv.20/">aranv.20</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- column 5 -->        
+          <div class="col-3" data-aos="fade-left">
+            <div class="flex gap-20">
+              <!-- icon  -->
+              <div class="footer-icon">
+                <i class="bx bxl-github"></i>
+              </div>
+              <!-- text  -->
+              <div>
+                <h4 class="footer-title">Github</h4>
+                <div class="my-20">
+                  <a class="primary-hover" a href = "https://github.com/aranv20">aranv20</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- column 5 -->        
+          <div class="col-3" data-aos="fade-left">
+            <div class="flex gap-20">
+              <!-- icon  -->
+              <div class="footer-icon">
+                <i class="bx bxl-linkedin"></i>
+              </div>
+              <!-- text  -->
+              <div>
+                <h4 class="footer-title">LinkedIn</h4>
+                <div class="my-20">
+                  <a class="primary-hover" a href = "https://www.linkedin.com/in/amelia-rahayu-57b297286/">amelia-rahayu</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- line break  -->
+        <hr class="my-20 border-gray" />
+        <!-- footer bottom  -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-2">
+            <p>&#169; Mobile Code 2024 | All Rights Reserved</p>
+          </div>
+          <!-- column 2 -->
+          <div class="col-2">
+            <div class="row">
+              <p class="primary-hover">Trams & Condition</p>
+              <p class="primary-hover">Privacy Policy</p>
+              <p class="primary-hover">Sitemap</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- CONTACT OVERLAY  -->
+    <div class="contact-overlay fade"></div>
+    <!-- LOADING -->
+    <div class="loading">
+      <div class="loader"></div>
+    </div>
+    <!-- Animate On Scroll Library JS Link  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- local js link  -->
+    <script src="index.js"></script>
+  </body>
+</html>
